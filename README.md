@@ -13,11 +13,11 @@ Since multiselect peoplepicker is not there yet, this can be used as an alternat
   •	This control will access users from "AAD User" Table ot "User" table. 
   
   
-#Dependencies
+#Dependencies:
 office-ui-fabric-react : https://github.com/microsoft/fluentui
 
 
-#Reference
+#Reference:
 
 Build using this example :https://developer.microsoft.com/en-us/fluentui#/controls/web/peoplepicker 
 
@@ -26,13 +26,13 @@ and
 https://github.com/Ramakrishnan24689/OfficeUIFabricReactPeoplePicker
 
 
-#Usage
+#Usage:
 
-Step 1 - Import the solution.
+#Option 1:
 
-Option 1 - Import the zip file directly into CDS. Managed or Unmanaged Solution.
+Import the zip file directly into CDS. Managed or Unmanaged Solution.
 
-Option 2
+#Option 2:
 
 git clone the repo
 

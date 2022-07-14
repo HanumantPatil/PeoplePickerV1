@@ -81,7 +81,7 @@ https://docs.microsoft.com/en-us/power-apps/developer/component-framework/import
 
 # Solution:
 
-PeoplePickerV1
+PeoplePickerV1Solution(PeoplePickerV1)
 
 # Author:
 

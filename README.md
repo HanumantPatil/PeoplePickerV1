@@ -3,10 +3,10 @@ A PCF component for _"**Multi**" or "**single**"_ select people picker.
 
 This solution gives the ability to select Single User or Multiple users from the people picker. It works on the _**User(systemuser)**_ table or _**AAD User(aaduser)**_ table of the dataverse.
 
-Since multi-select peoplepicker is not there yet, this can be used as an alternate. It is build on top of Multiline text field. Moereover we have some filtering issue whlie using lookup column with AAD user table to overcome filtering problem, we will use this control as solution.
+Since multi-select peoplepicker is not there yet, this can be used as an alternate. It is build on top of Multiline text field. Moreover we have some filtering issue while using lookup column with AAD user table to overcome filtering problem, we will use this control as solution.
 
 # Control Features:
-  •	_We can user this control as "Sigle user select"._
+  •	_We can user this control as "Single user select"._
   
   •	_We can user this control as "Multi user select"._
   

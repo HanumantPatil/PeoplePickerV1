@@ -1,16 +1,16 @@
 # PeoplePickerV1
-A PCF component for "**Multi**" or "**single**" select people picker.
+A PCF component for _"**Multi**" or "**single**"_ select people picker.
 
-This solution gives the ability to select Single User or Multiple users from the people picker. It works on the User(systemuser) table or AAD User(aaduser) table  of the dataverse.
+This solution gives the ability to select Single User or Multiple users from the people picker. It works on the _**User(systemuser)**_ table or _**AAD User(aaduser)**_ table  of the dataverse.
 
-Since multiselect peoplepicker is not there yet, this can be used as an alternate. It is build on top of Multiline text field. Moereover we have some filtering issue whlie using lookup column with AAD user table we cab user this control as solution
+Since multiselect peoplepicker is not there yet, this can be used as an alternate. It is build on top of Multiline text field. Moereover we have some filtering issue whlie using lookup column with AAD user table, we will use this control as solution.
 
 # Control Features:
-  •	We can user this control as "Sigle user select".
+_ ** •	We can user this control as "Sigle user select".
   
   •	We can user this control as "Multi user select".
   
-  •	This control will access users from "AAD User" Table ot "User" table. 
+  •	This control will access users from "AAD User" Table ot "User" table. **_
   
   
 # Dependencies:
@@ -28,7 +28,7 @@ https://github.com/Ramakrishnan24689/OfficeUIFabricReactPeoplePicker
 
 # Usage:
 
-# Step 2:
+# Step 1:
 
 
 # Option 1:
@@ -68,6 +68,25 @@ Load AAD User Enabled/Active Accounts or all accounts - true/false
 <img width="409" alt="image" src="https://user-images.githubusercontent.com/18139035/178975605-1855b2f3-94dd-4d19-9151-aa455265da16.png">
 
 
-
-
 # sample
+
+<img width="680" alt="image" src="https://user-images.githubusercontent.com/18139035/178976649-759e48bf-95d0-4028-b746-f26bbe5e7513.png">
+
+
+<img width="442" alt="image" src="https://user-images.githubusercontent.com/18139035/178976736-73ccef1d-efad-4079-b3b1-1da93c8d05bb.png">
+
+# For packaging & deploying the solution, refer the below link
+
+https://docs.microsoft.com/en-us/power-apps/developer/component-framework/import-custom-controls
+
+# Solution:
+
+PeoplePickerV1
+
+# Author:
+
+Hanumant Patil
+
+# Disclaimer:
+
+_**THIS CODE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**_

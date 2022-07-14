@@ -1,5 +1,5 @@
 # PeoplePickerV1
-A PCF component for Multi or single select people picker.
+A PCF component for "**Multi**" or "**single**" select people picker.
 
 This solution gives the ability to select Single User or Multiple users from the people picker. It works on the User(systemuser) table or AAD User(aaduser) table  of the dataverse.
 
@@ -35,9 +35,14 @@ Option 1 - Import the zip file directly into CDS. Managed or Unmanaged Solution.
 Option 2
 
 git clone the repo
+
 npm install
+
 npm run build
+
 Step 2 - Add the component
+
 Create a Multiline text field and add the component.
+
 
 #sample

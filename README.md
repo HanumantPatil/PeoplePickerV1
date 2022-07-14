@@ -10,7 +10,7 @@ Since multi-select peoplepicker is not there yet, this can be used as an alterna
   
   •	_We can user this control as "Multi user select"._
   
-  •	_This control will access users from "AAD User" Table ot "User" table._
+  •	_This control will access users from "AAD User" Table or "User" table._
   
   
 # Dependencies:

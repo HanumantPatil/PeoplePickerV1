@@ -6,7 +6,11 @@ This solution gives the ability to select Single User or Multiple users from the
 Since multiselect peoplepicker is not there yet, this can be used as an alternate. It is build on top of Multiline text field. Moereover we have some filtering issue whlie using lookup column with AAD user table we cab user this control as solution
 
 # Control Features:
-  •	We can user this control as "Sigle user select" \n
-  •	We can user this control as "Multiuser selects" \n
-  •	This control will access users from "AAD User" Table ot "User" tables \n
+  •	We can user this control as "Sigle user select" 
+  
+  •	We can user this control as "Multiuser selects" 
+  
+  •	This control will access users from "AAD User" Table ot "User" tables 
+  
+  
 

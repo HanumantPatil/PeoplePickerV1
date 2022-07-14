@@ -47,5 +47,10 @@ npm run build
 
 Create a Multiline text field and add the component.
 
+#Step 3:
+
+Three parameter need to configure as shown below 
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/18139035/178974887-9241d8e6-d156-43c4-97aa-d99bfe19a05d.png">
+
 
 # sample

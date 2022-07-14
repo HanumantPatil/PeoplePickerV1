@@ -49,8 +49,25 @@ Create a Multiline text field and add the component.
 
 #Step 3:
 
-Three parameter need to configure as shown below 
+1. Three parameter need to configure as shown below 
+
 <img width="445" alt="image" src="https://user-images.githubusercontent.com/18139035/178974887-9241d8e6-d156-43c4-97aa-d99bfe19a05d.png">
+
+entityName: aaduser or user
+
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/18139035/178975166-82910ff8-f7ba-404a-90be-1c6c7106c1a4.png">
+
+selectionType: Single or Multi
+
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/18139035/178975292-959a936b-0866-4c9b-b3db-f5d4a766e4d9.png">
+
+loadEnabledAccounts: true or false (applicable to only AAD User table)
+
+Load AAD User Enabled/Active Accounts or all accounts - true/false 
+
+<img width="409" alt="image" src="https://user-images.githubusercontent.com/18139035/178975605-1855b2f3-94dd-4d19-9151-aa455265da16.png">
+
+
 
 
 # sample

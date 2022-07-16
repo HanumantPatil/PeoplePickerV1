@@ -37,7 +37,7 @@ export class PeoplePickerV1 implements ComponentFramework.StandardControl<IInput
      * Called when any value in the property bag has changed. This includes field values, data-sets, global values such as container height and width, offline status, control metadata values such as label, visible, etc.
      * @param context The entire property bag available to control via Context Object; It contains values as set up by the customizer mapped to names defined in the manifest, as well as utility functions
      */
-    public async updateView(context: ComponentFramework.Context<IInputs>) {
+    public updateView(context: ComponentFramework.Context<IInputs>) {
         // Add code to update control view
         this.props.context = context;
         this.props.isPickerDisabled = context.mode.isControlDisabled;

@@ -85,6 +85,9 @@ _**https://powerusers.microsoft.com/t5/Power-Automate-Community-Blog/Preview-Cus
 
 _**https://debajmecrm.com/custom-controls-in-dynamics-365-business-process-flows/**_
 
+<img width="312" alt="image" src="https://user-images.githubusercontent.com/18139035/182323696-f3c7f6bd-7a44-4696-97fc-0e71b38d4836.png">
+
+
 # Solution:
 
 PeoplePickerV1Solution(PeoplePickerV1)

@@ -87,6 +87,29 @@ _**https://debajmecrm.com/custom-controls-in-dynamics-365-business-process-flows
 
 <img width="312" alt="image" src="https://user-images.githubusercontent.com/18139035/182323696-f3c7f6bd-7a44-4696-97fc-0e71b38d4836.png">
 
+# if you faced problem to load PCF control first time then try below options:
+
+Option I:
+1. Remove 'async' from init or updateview method.
+
+Option II:
+
+1.	Change the control visibility of the control to No.
+
+<img width="616" alt="image" src="https://user-images.githubusercontent.com/18139035/182326702-bc54d6d6-9ddc-42e2-9e2d-8d6d876c0833.png">
+
+2.	Onload event of Main form, you can make that control visible Yes using script 
+
+<img width="440" alt="image" src="https://user-images.githubusercontent.com/18139035/182326910-8a04666e-d7c6-4548-984c-ea062b5ad72e.png">
+
+/**
+ *  Script to overcome PCF control issue not loading on the first load
+ *  Unhide the People Picker control.
+ * */
+VisiblePeoplePickerColumns = function (executionContext) {
+  var formContext = executionContext.getFormContext();
+  formContext.getControl("controlLogicalName").setVisible(true);
+  }
 
 # Solution:
 

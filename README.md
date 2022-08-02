@@ -85,7 +85,8 @@ _**https://powerusers.microsoft.com/t5/Power-Automate-Community-Blog/Preview-Cus
 
 _**https://debajmecrm.com/custom-controls-in-dynamics-365-business-process-flows/**_
 
-<img width="312" alt="image" src="https://user-images.githubusercontent.com/18139035/182323696-f3c7f6bd-7a44-4696-97fc-0e71b38d4836.png">
+<img width="310" alt="image" src="https://user-images.githubusercontent.com/18139035/182327854-1fbb563d-5a8a-4723-93a7-c250261e315a.png">
+
 
 # if you faced problem to load PCF control first time then try below options:
 
@@ -105,11 +106,16 @@ Option II:
 /**
  *  Script to overcome PCF control issue not loading on the first load
  *  Unhide the People Picker control.
- * */
+ **/
+ 
+ 
+ 
 VisiblePeoplePickerColumns = function (executionContext) {
   var formContext = executionContext.getFormContext();
   formContext.getControl("controlLogicalName").setVisible(true);
   }
+
+
 
 # Solution:
 

@@ -79,6 +79,12 @@ Load AAD User Enabled/Active Accounts or all accounts - true/false
 
 https://docs.microsoft.com/en-us/power-apps/developer/component-framework/import-custom-controls
 
+# To use PCF control in Business Process Flow, follow the links below:
+
+_**https://powerusers.microsoft.com/t5/Power-Automate-Community-Blog/Preview-Custom-Controls-in-Business-Process-Flows/ba-p/263237**_
+
+_**https://debajmecrm.com/custom-controls-in-dynamics-365-business-process-flows/**_
+
 # Solution:
 
 PeoplePickerV1Solution(PeoplePickerV1)
